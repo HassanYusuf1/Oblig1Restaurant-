@@ -1,0 +1,213 @@
+
+/* css for bilde på forsiden */
+#forside {
+    background-image: url('Bilder/forside.jpg');
+    background-size: 100%;
+    display: block;
+    scrollbar-color: #333;
+    position: relative;
+    max-width: 100%;
+    transform: translate3d(0, 0, 0);
+    
+
+  }
+#filmbox {
+	display: flex;
+    flex-direction: row;
+	flex-wrap:wrap;
+	background-color:#6565;
+    border: 20px solid #6565;
+	padding: 10px;
+}
+#filmdiv{
+	border: 5px solid rose;
+	padding: 5px;
+	margin: 10px;
+}
+#header {
+    background-color: #333;
+    width: 100%;
+
+}
+#header h1 {
+    letter-spacing: 10px;
+    font-size: 300%;
+    text-align: center;
+	color:burlywood;
+	margin-top:50px;
+    font-family:cursive;
+
+}
+
+/* Navigasjonsbaren oppe */
+.navbar {
+  overflow:hidden;
+  background-color: #333;
+  position: absolute; /* holder den stille oppe der */
+  top: 0; /* toppen av siden */
+  width: 99%;  /* full bredde */
+}
+
+/* linkene i navi baren */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+/* bytte farge dersom musen over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* hele siden */
+.main {
+  margin-top: 30px; /* påfører top margin sånn at alt ikke er under navi osv. */
+}
+
+.h2 .p {
+    text-align: center, left;
+}
+
+#beskriv {
+    display: block;
+    background-color: #f2f2f2;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    font-weight: 200;
+    font-family:Butler, sans-serif;
+    color:#333;
+    letter-spacing: 1.4px;
+    margin-top: 15px;
+    
+}
+
+#bilde {
+
+    color: #f2f2f2;
+}
+
+#Oslo {
+    cursor: pointer;
+}
+/*CSS NEDERSTE AVSNITT VED BESTILL BORD KNAPPEN*/
+.rute {
+    padding-top: 15%;
+    display: block;
+    width: 100%;
+    max-width: auto;
+    
+}
+.bestill-bord {
+    font-size:17px;
+    font-family: Butler, sans-serif;
+    color:#333;
+    font-weight: 400;
+    padding-left: 15%;
+
+}
+.skriftstil {
+    font-size: 40px;
+    margin-top:0px;
+    font-family: Butler, sans-serif;
+    color:#333;
+    font-weight: 400;
+    padding-left: 15%;
+    
+    
+}
+.kjott-feraser {
+    font: size 25px;
+    font-family: Butler, sans-serif;
+    color:#333;
+    font-weight: 400;
+    padding-left: 15%;
+    padding-right: 50%;
+    padding-bottom: 20px;
+
+}
+
+/*GOOGLE MAPS */
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:320px;
+    width:550px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none !important;
+    height:320px;
+    width:550px;
+}
+.seksjon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 22px;
+    max-width: 100%;
+    height: 200px;
+    display:flex;
+    text-align: center;
+}
+.skriftstilHvit {
+    font-size: 25px;
+    margin-top:0px;
+    font-family: Butler, sans-serif;
+    color:whitesmoke;
+    font-weight: 400;
+    margin-left: 28%;
+
+    
+}
+/* CSS FOR MENY.html */
+.meny {
+    margin-left: 385px;
+    min-width: 80%;
+    display: block;
+    border: 2px solid;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    position: relative;
+    font-family: Butler, sans-serif;
+
+
+}
+
+#type{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .navn{
+    font-family: Butler, sans-serif;
+    font-size: 20px;
+    margin-left: 420px;
+  
+  }
+
+.allergi {
+    font-family: cursive;
+}
+
+.info {
+    border: 2px black;
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.senter {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
